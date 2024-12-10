@@ -1,6 +1,206 @@
 // Array di domande e risposte
 const questions = [
     {
+    "question": "Qual è la percentuale di mutazioni BRCA1 e BRCA2 associate al carcinoma della mammella e dell'ovaio?",
+    "options": [
+        "BRCA1: mammella 70%, ovaio 40%; BRCA2: mammella 40%, ovaio 15%",
+        "BRCA1: mammella 50%, ovaio 25%; BRCA2: mammella 30%, ovaio 10%",
+        "BRCA1: mammella 80%, ovaio 50%; BRCA2: mammella 60%, ovaio 20%",
+        "BRCA1: mammella 40%, ovaio 30%; BRCA2: mammella 25%, ovaio 10%"
+    ],
+    "correct": 0
+},
+    {
+        "question": "Il tumore della mammella infiltrante più frequente è il:",
+        "options": [
+            "ca in situ",
+            "ca duttale",
+            "ca tubulare",
+            "ca mucinoso"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Quante donne rischiano K mammella in Italia?",
+        "options": [
+            "1 su 8",
+            "1 su 10",
+            "1 su 6",
+            "1 su 12"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Nel tumore del rene, la sopravvivenza mediana a 5 anni è strettamente correlata allo stadio di malattia. Quale tra le seguenti affermazioni è CORRETTA?",
+        "options": [
+            "Stadio I - OS a 5 anni pari a circa 80%",
+            "Stadio II - OS a 5 anni pari a circa 95%",
+            "Stadio III - OS a 5 anni pari a circa il 65%",
+            "Stadio IV - OS a 5 anni pari a circa il 30%"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Terapia adiuvante del colon, quale non si usa?",
+        "options": [
+            "Irinotecan",
+            "5-FU",
+            "Capecitabina",
+            "Oxaliplatino"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Metastasectomia nel K colon metastatico:",
+        "options": [
+            "Solo quando l'intervento sulle metastasi sarà radicale",
+            "Sempre indicata",
+            "Non è mai indicata",
+            "Solo in caso di coinvolgimento epatico"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "In ambito epidemiologico, l'HCC (indicare la RISPOSTA CORRETTA):",
+        "options": [
+            "È la decima causa di morte per neoplasia più frequente nel mondo",
+            "In Italia rappresenta una causa molto rara di morte per neoplasia",
+            "È più frequente nel sesso maschile",
+            "Il picco di incidenza è fra i 40-49 anni"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Farmaci per chemio del K pancreas:",
+        "options": [
+            "Gemcitabina",
+            "FOLFIRINOX",
+            "Capecitabina",
+            "Tutti i precedenti"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Quali delle seguenti coppie 'anticorpi immunomodulatori'/'immuno check-point' è SBAGLIATA?",
+        "options": [
+            "Nivolumab / PD-1",
+            "Ipilimumab / CTLA-4",
+            "Pembrolizumab / PD-1",
+            "Dembrolimumab / PD-1"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Il diabete può essere un segno di K pancreas più che un fattore di rischio?",
+        "options": [
+            "Sì, in alcuni casi",
+            "No, è solo un fattore di rischio",
+            "Dipende dalla durata del diabete",
+            "Non è associato al K pancreas"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Quale non è una lesione precancerosa del pancreas?",
+        "options": [
+            "Pseudocisti",
+            "IPMN",
+            "PanIN",
+            "MCN"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Qual è il ruolo del Sorafenib nel trattamento del carcinoma epatocellulare?",
+        "options": [
+            "Non è un farmaco utilizzabile nel trattamento dell'HCC per la sua tossicità",
+            "Il farmaco è tutt'ora in sperimentazione",
+            "È indicato in prima linea nel trattamento dell'HCC avanzato",
+            "È indicato in seconda linea nel trattamento dell'HCC avanzato"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Ossicodone è:",
+        "options": [
+            "Oppioide maggiore",
+            "Oppioide minore",
+            "Un FANS",
+            "Un analgesico non oppioide"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Nella valutazione del dolore, la Scala Verbale Semplice (SVS):",
+        "options": [
+            "È particolarmente adatta a pazienti di età pre-scolare",
+            "Richiede una importante coordinazione visivo-motoria",
+            "È molto precisa e permette di valutare anche piccole modificazioni di intensità del dolore",
+            "Utilizza una lista di descrittori dell'intensità del dolore, che formano diverse categorie"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Uno stimolo nocivo:",
+        "options": [
+            "Causa risposte riflesse sia somatiche-motorie che neuro-vegetative",
+            "Causa solo risposte riflesse somatiche-motorie",
+            "Causa solo risposte riflesse neuro-vegetative",
+            "Nessuna delle precedenti"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Il termine Brachiterapia indica un trattamento con:",
+        "options": [
+            "Breve durata dell'irradiazione",
+            "Breve distanza tra sorgente e tumore",
+            "Breve intervallo con l'intervento chirurgico",
+            "Breve intervallo con la chemioterapia"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "L'effetto della radioterapia è limitato dall'ipossia tumorale; questa può essere:",
+        "options": [
+            "Acuta e cronica",
+            "Sempre temporanea",
+            "Sempre persistente",
+            "Presente soprattutto alla fine del trattamento"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Una delle più frequenti indicazioni alla radioterapia palliativa è rappresentata dal trattamento:",
+        "options": [
+            "Delle metastasi epatiche",
+            "Delle metastasi delle ghiandole surrenali",
+            "Delle metastasi ossee",
+            "Delle metastasi uveali"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Una delle tecniche della visita centrata sul paziente è il focusing:",
+        "options": [
+            "Serve per ripetere le ultime parole dette dal paziente",
+            "Serve per spiegare al paziente cosa sta per succedere",
+            "Serve per portare l'attenzione del paziente su un aspetto specifico",
+            "Serve per verificare che il paziente abbia capito"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "In sede di colloquio un medico può utilizzare 'domande aperte' soprattutto per:",
+        "options": [
+            "Controllare l'andamento della comunicazione mantenendone la direzione",
+            "Suggerire al paziente il tipo di risposte cercate",
+            "Mettere in difficoltà il paziente",
+            "Raccogliere informazioni anche sullo stato emotivo del paziente"
+        ],
+        "correct": 3
+    },    
+    {
         "question": "La radioterapia delle lesioni delle corde vocali:",
         "options": [
             "Produce un analogo controllo di malattia rispetto alla chirurgia, ma con un miglior mantenimento della fonazione",
