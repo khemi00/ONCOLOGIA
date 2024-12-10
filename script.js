@@ -1,5 +1,315 @@
 // Array di domande e risposte
 const questions = [
+    {
+        "question": "La radioterapia delle lesioni delle corde vocali:",
+        "options": [
+            "Produce un analogo controllo di malattia rispetto alla chirurgia, ma con un miglior mantenimento della fonazione",
+            "Produce un controllo di malattia inferiore rispetto alla chirurgia, ma con un miglior mantenimento della fonazione",
+            "Produce un miglior controllo di malattia se associata alla laringectomia totale",
+            "Produce un miglior controllo di malattia rispetto alla chirurgia, ma con un peggior mantenimento della fonazione"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Nei pazienti con carcinoma prostatico, quale delle seguenti associazioni 'Score di Gleason – Gruppo prognostico' (conferenza ISUP 2014) è CORRETTO?",
+        "options": [
+            "Score di Gleason 9-10 = Gruppo 2",
+            "Score di Gleason 3+4=7 = Gruppo 4",
+            "Score di Gleason 4+3=7 = Gruppo 3",
+            "Score di Gleason ≤ 6 = Gruppo 5"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Una delle più frequenti indicazioni alla radioterapia palliativa è rappresentata dal trattamento:",
+        "options": [
+            "Delle metastasi delle ghiandole surrenali",
+            "Delle metastasi ossee",
+            "Delle metastasi uveali",
+            "Delle metastasi epatiche"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "La radioterapia può integrarsi con la chemioterapia in modo:",
+        "options": [
+            "Alternante o neoadiuvante",
+            "Sequenziale o concomitante",
+            "Additivo o radioprotettivo",
+            "Contemporaneo o intervallato ogni 2-3 mesi"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Il tumore della mammella infiltrante più frequente è il?",
+        "options": [
+            "Carcinoma cribriforme",
+            "Carcinoma tubulare",
+            "Carcinoma duttale",
+            "Carcinoma mucinoso"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Da un punto di vista epidemiologico, il CRC … indicare l’affermazione CORRETTA:",
+        "options": [
+            "E’ la quinta causa di morte per neoplasia nel sesso femminile",
+            "L’incidenza è in graduale aumento",
+            "E’ la prima neoplasia per frequenza sia nell'uomo che nella donna",
+            "L’incidenza è attualmente in calo grazie ai programmi di screening in entrambi i sessi"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "La tossicità tardiva da radioterapia dipende da:",
+        "options": [
+            "Radiosensibilità del tumore",
+            "Durata del trattamento",
+            "Frazionamento della dose",
+            "Chemioterapia concomitante"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "La terapia adiuvante per il tumore del polmone NON a piccole cellule (NSCLC):",
+        "options": [
+            "NON prevede l’impiego di derivati del platino",
+            "Sembra avere beneficio maggiore negli stadi II e III radicalmente operati",
+            "NON è mai indicata",
+            "Può essere proposta anche dopo 3 mesi dalla chirurgia"
+        ],
+        "correct": 1
+    },
+   {
+        "question": "Nel melanoma, la mutazione dei gene BRAF è presente:",
+        "options": [
+            "Nel 50 % dei pazienti",
+            "Nel 20-30 % dei pazienti",
+            "Nel 5-10% dei pazienti",
+            "Nell’1-3% dei pazienti"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Il dolore nocicettivo si genera per:",
+        "options": [
+            "Blocco dei nocicettori in periferia",
+            "Attivazione dei nocicettori in periferia",
+            "Blocco dei nocicettori nel Sistema Nervoso Centrale",
+            "Nessuno dei precedenti"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Convenzionalmente, il retto è esteso:",
+        "options": [
+            "Fino a circa 12 cm dal margine anale",
+            "Fino a circa 5 cm dal margine anale",
+            "Fino a circa 20 cm dal margine anale",
+            "Fino a circa 8 cm dal margine anale"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Nel melanoma in stadio iniziale, il rischio di coinvolgimento linfonodale è (indicare l’unica risposta corretta):",
+        "options": [
+            "Circa il 60% se lo spessore del melanoma è tra 1,5 e 4 mm",
+            "Circa il 25% se lo spessore del melanoma è >4 mm",
+            "Circa il 60 % se lo spessore del melanoma è > 4mm",
+            "Raro se lo spessore del melanoma è > 4mm"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Quali tra i seguenti è considerato fattori di rischio per lo sviluppo del melanoma?",
+        "options": [
+            "Esposizione a raggi UV",
+            "Presenza di mutazione del gene CDKN2A",
+            "Fenotipo chiaro",
+            "Tutti i precedenti"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Dalla fine degli anni ‘90, quale tra i seguenti è considerato un chemioterapico “standard” nel trattamento del carcinoma pancreatico metastatico?",
+        "options": [
+            "Eribulina",
+            "Gemcitabina",
+            "Antracicline",
+            "Irinotecan"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Nella valutazione del dolore, la Scala Analogica Visiva (VAS):",
+        "options": [
+            "È di solito composta da una retta di 15 cm",
+            "È un metodo mulitdimensionale di valutazione del dolore",
+            "Richiede coordinazione visivo-motoria da parte del paziente",
+            "NON richiede alcuna capacità di astrazione"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "L'Olaparib:",
+        "options": [
+            "Può essere prescritto solo per le pazienti con tumore della mammella localizzato BRCA mutato",
+            "Può essere prescritto per tutti i tipi di tumore della mammella",
+            "Può essere prescritto sia per il tumore della mammella HER2 positivo che per quello ovarico",
+            "Può essere prescritto solo per le pazienti con tumore della mammella metastatico BRCA mutato"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Tutte le seguenti affermazioni sul tumore del testicolo sono corrette, TRANNE una (indicare l’unica affermazione sbagliata):",
+        "options": [
+            "I tumori del testicolo sono per la maggior parte tumori a cellule germinali",
+            "Dopo orchiectomia, i pazienti con seminoma sono sempre candidati a radioterapia adiuvante",
+            "Frequentemente, si presentano con una tumefazione a livello del testicolo",
+            "Circa il 30% dei NON-seminomi in stadio I presenta metastasi sub-cliniche"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "In sede di colloquio, un medico può utilizzare alcune tecniche comunicative per restituire le informazioni al paziente. Tra queste:",
+        "options": [
+            "Le domande concatenate",
+            "Il distacco dello sguardo",
+            "Le domande chiuse",
+            "L'uso della parafrasi e le 'reflection skills'"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "I tumori della mammella triplo negativi?",
+        "options": [
+            "NON esprimono né HER2 né i recettori ormonali",
+            "Esprimono i recettori ormonali",
+            "Esprimono solo HER2",
+            "Hanno una buona prognosi"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Nella seguente frase, quale tecnica comunicativa viene utilizzata? 'È comprensibile che uno preferisca evitare di assumere una pillola tutti i giorni... ma i rischi che può procurare una patologia di questo tipo [un’ipertensione] sono... abbastanza importanti …'",
+        "options": [
+            "Chatting",
+            "Eco",
+            "Focusing",
+            "Reflection skills"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Quali delle seguenti affermazioni sui dati epidemiologici italiani dell’HCC è VERA?",
+        "options": [
+            "L’incidenza e la mortalità sono in graduale decremento (in entrambi i sessi)",
+            "L’incidenza e la mortalità sono in decremento solo nel sesso maschile",
+            "L’incidenza è in aumento ma la mortalità è in decremento (in entrambi i sessi)",
+            "L’incidenza e la mortalità sono in graduale incremento (in entrambi i sessi)"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Quale fra le seguenti affermazioni sul tumore del rene è SBAGLIATA?",
+        "options": [
+            "In Europa rappresenta il 3-4% di tutte le neoplasie dell’adulto",
+            "Solo il 20% dei pazienti che esordiscono con malattia localizzata svilupperà una malattia sistemica in seguito",
+            "La sopravvivenza a 5 anni è strettamente correlata allo stadio alla diagnosi",
+            "Il 25-30% dei casi esordisce con malattia metastatica"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Nei pazienti con carcinoma pancreatico operati radicalmente, quale delle seguenti affermazioni riguardanti la terapia adiuvante è SBAGLIATA?",
+        "options": [
+            "Può prevedere l’utilizzo di regimi di a 1, 2 o 3 farmaci (in base alle condizioni cliniche del paziente)",
+            "Tra i regimi di chemioterapia più studiati in questo setting vi sono quelli a base di 5-FU e Gemcitabina",
+            "Un recente studio di fase III ha valutato l’efficacia dello schema FOLFIRINOX anche nel setting adiuvante",
+            "È raccomandata solo in un piccolo sottogruppo di pazienti"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Quale delle seguenti affermazioni sul trattamento delle donne con carcinoma dell’endometrio in Stadio II è CORRETTA?",
+        "options": [
+            "Nessuna delle affermazioni elencate",
+            "NON è mai indicato un trattamento chemioterapico ad intento adiuvante, nemmeno se vi sono fattori prognostici negativi",
+            "L’approccio chirurgico è opzionale",
+            "La linfoadenectomia ha un ruolo fondamentale per la stadiazione chirurgica"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Secondo le ultime linee guida in ambito epatologico, la metodica raccomandata per la sorveglianza dei pazienti con cirrosi epatica, ritenuti a maggior rischio di sviluppo di HCC è:",
+        "options": [
+            "La TC torace addome completo senza mdc ogni 6 mesi",
+            "L’ecografia epatica ogni 6 mesi",
+            "Il dosaggio dell’alfa-feto-proteina e CEA ogni 6 mesi",
+            "Tutte le precedenti"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "La terapia adiuvante dei tumori HER2 positivi della mammella comprende?",
+        "options": [
+            "Ormonoterapia e in alcuni casi chemioterapia e terapia target",
+            "Ormonoterapia e in alcuni casi chemioterapia",
+            "Ormonoterapia e chemioterapia",
+            "Terapia target e chemioterapia e in alcuni casi ormonoterapia"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Nelle pazienti affette da tumore della mammella metastico HER2 positivo, in prima linea insieme al trastuzumab devo prescrive?",
+        "options": [
+            "Pertuzumab",
+            "Atezolizumab",
+            "Lapatinib",
+            "T-DM1"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Il temine brachiterapia indica un trattamento con:",
+        "options": [
+            "Breve distanza tra sorgente e tumore",
+            "Breve durata dell’irradiazione",
+            "Breve intervallo con l’intervento chirurgico",
+            "Breve intervallo con la chemioterapia"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Per la valutazione del parametro N nella stadiazione del tumore del polmone NON è di comune impiego?",
+        "options": [
+            "La mediastinoscopia",
+            "La videotoracoscopia",
+            "La PET fdg",
+            "La toracotomia esplorativa"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Quale fra i seguenti NON è comunemente considerato un fattore prognostico per un paziente con tumore del rene?",
+        "options": [
+            "Presenza di insufficienza ipomagnesemia",
+            "Parametro T",
+            "Presenza di componente sarcomatoide",
+            "Grading della neoplasia renale"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Quali delle seguenti affermazioni sui dati epidemiologici italiani del carcinoma pancreatico è FALSA?",
+        "options": [
+            "Il picco di incidenza tra il sesto e settimo decennio",
+            "L’incidenza è in decremento",
+            "Circa l’80% dei casi è diagnosticato in stadio avanzato",
+            "Rientra tra le neoplasie a prognosi più infausta"
+        ],
+        "correct": 1
+    },
    {
     "question": "Il carcinoma del pancreas ereditario si associa a quale delle seguenti sindromi?",
     "options": [
