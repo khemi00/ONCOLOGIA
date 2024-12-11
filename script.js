@@ -1,6 +1,926 @@
 // Array di domande e risposte
 const questions = [
     {
+        "question": "Secondo le ultime linee guida Europee (ESMO 2021), quale tra le seguenti sono considerate possibili alternative di prima linea nel trattamento sistemico del tumore del rene in stadio avanzato 'intermediate/poor-diagnosis'?",
+        "options": [
+            "Cabozantinib",
+            "Pembrolizumab + Axitinib",
+            "Pembrolizumab + Lenvatinib (non ancora approvato in Italia)",
+            "Tutti i precedenti"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Nei pazienti con carcinoma del retto, quale delle seguenti indagini strumentali NON è ancora utilizzata di routine per una corretta stadiazione locale di malattia?",
+        "options": [
+            "RMN pelvi",
+            "TC torace-addome-pelvi con mdc",
+            "PET-FDG",
+            "Ecografia trans-anale"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Allodinia è:",
+        "options": [
+            "La percezione del dolore per uno stimolo che abitualmente è doloroso",
+            "La percezione di benessere per uno stimolo che abitualmente non è doloroso",
+            "La percezione del mancamento per uno stimolo che abitualmente non è doloroso",
+            "La percezione del dolore per uno stimolo che abitualmente non è doloroso"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Quale delle seguenti affermazioni sul carcinoma pancreatico 'resecabile' è SBAGLIATA?",
+        "options": [
+            "Rappresentano circa il 20% dei casi alla diagnosi",
+            "Quando possibile, la chirurgia upfront rimane l'opzione di scelta (salvo ingresso in studi clinici)",
+            "Il tipo di intervento chirurgico dipende dalla sede del tumore (DPC, pancreatisectomia distale o totale)",
+            "La sopravvivenza globale a 5 anni dall'intervento chirurgico resettivo è pari al 50%"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Il Tapentadolo impedisce:",
+        "options": [
+            "La ricaptazione della Nor-capsaicina",
+            "La ricaptazione della Nor-serotonina",
+            "La ricaptazione della Nor-adrenalina",
+            "La ricaptazione della Nor-glutamina"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Nella valutazione clinica di un paziente affetto da HCC, quale tra i seguenti NON è uno dei parametri necessari per il calcolo del 'Child-Pugh score'?",
+        "options": [
+            "Presenza/assenza di ascite",
+            "Valori di INR",
+            "Valori di creatinina",
+            "Valori di albuminemia"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Quale dei seguenti NON è considerato uno dei 'Sette sigilli del cancro'?",
+        "options": [
+            "Accorciamento progressivo dei telomeri",
+            "Microambiente infiammatorio",
+            "Insensibilità ai fattori anti-crescita",
+            "Invasione tissutale e metastasi"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Quale tra le seguenti NON rientra tra le caratteristiche del paziente ottimale candidabile alla TACE nel trattamento dell'HCC?",
+        "options": [
+            "Assenza di metastasi extraepatiche",
+            "BCLC stage B",
+            "Presenza di trombosi vascolare",
+            "Funzione epatica preservata"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Quali delle seguenti affermazioni riguardo la terapia adiuvante nei pazienti operati per CRC è CORRETTA?",
+        "options": [
+            "Prevede l'impiego di doppiette di farmaci a base di Irinotecan",
+            "Deve essere iniziata entro 6-8 settimane dall'intervento chirurgico",
+            "È sempre raccomandata indipendentemente dallo stadio di malattia",
+            "Non è mai indicata"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "L'acceleratore lineare è impiegato nei trattamenti di radioterapia:",
+        "options": [
+            "Con fasci provenienti da una sorgente posta all'esterno del paziente",
+            "Con sorgenti radioattive non sigillate",
+            "Con sorgenti radioattive sigillate",
+            "Associata a farmaci ipotensivi"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "A partire dal XIX secolo:",
+        "options": [
+            "La scienza medica ha assunto su di sé le funzioni precedentemente svolte dalla religione",
+            "La religione ha assunto su di sé le funzioni precedentemente svolte dalla scienza medica",
+            "La religione ha assunto su di sé le funzioni precedentemente svolte dalla psicologia",
+            "La scienza medica ha assunto su di sé le funzioni precedentemente svolte dalla psicologia"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Quale fra i seguenti NON è comunemente considerato un fattore prognostico per un paziente con tumore del rene?",
+        "options": [
+            "Presenza di ipomagnesemia",
+            "Grading della neoplasia renale",
+            "Presenza di componente sarcomatoide",
+            "Parametro T"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Quale delle seguenti affermazioni circa il trattamento sistemico di prima linea nei pazienti con tumore del polmone non a piccole cellule in stadio IV è ERRATA?",
+        "options": [
+            "Nei pazienti con malattia 'oncogene-addicted', il trattamento di scelta è rappresentato dalla chemio-immunoterapia",
+            "Nei pazienti con mutazione di EGFR, il trattamento di scelta è rappresentato da inibitori di EGFR di III generazione (Osimertinib)",
+            "Nei pazienti 'non oncogene-addicted' con espressione di PD-L1 > 50%, il trattamento di scelta è rappresentato dall'immunoterapia",
+            "Nei pazienti con riarrangiamento di ALK, il trattamento di scelta è rappresentato da inibitori di ALK di II generazione (Alectinib)"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "L'HIPEC (indica l’affermazione sbagliata):",
+        "options": [
+            "Consiste nella somministrazione intraperitoneale di antiblastici",
+            "Tra i farmaci più utilizzati ci sono cisplatino e taxolo",
+            "È indicata in tutti i casi di carcinoma ovarico",
+            "L’ipertermia applicata aumenta la permeabilità delle membrane cellulari ai chemioterapici"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "L'esposizione lavorativa all'asbesto (amianto) è considerato un fattore di rischio per lo sviluppo di quale tumori?",
+        "options": [
+            "Mesotelioma",
+            "Tumore ovarico",
+            "Colangiocarcinoma",
+            "Tutti i precedenti"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Il microcitoma polmonare o SCLC (indicare l'unica affermazione CORRETTA):",
+        "options": [
+            "È scarsamente chemiosensibile",
+            "È un tumore a prevalente localizzazione subpleurica",
+            "È spesso operabile alla diagnosi",
+            "Rappresenta circa il 10-15% dei tumori del polmone"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Il cancro:",
+        "options": [
+            "A prescindere dalla sua effettiva gravità, ci costringe a negare l'idea della finitudine",
+            "Solo se estremamente grave ci costringe a negare l'idea della finitudine",
+            "A prescindere dalla sua effettiva gravità, ci costringe a non negare più l'idea della finitudine",
+            "Solo se estremamente grave ci costringe a non negare più l'idea della finitudine"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "La radioterapia esterna con acceleratore lineare si basa sull'uso di:",
+        "options": [
+            "Fasci di elettroni e neutroni",
+            "Protoni e ioni carbonio",
+            "Fotoni ed elettroni",
+            "Protoni e fotoni"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Durante la radioterapia 'frazionata' si assiste:",
+        "options": [
+            "Al progressivo peggioramento dell'ipossia tumorale",
+            "Alla comparsa del fenomeno dell'ipossia acuta",
+            "Ad una accelerata neoangiogenesi",
+            "Alla progressiva riossigenazione del tumore"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Quale fra le seguenti affermazioni sul colangiocarcinoma (CCA) è SBAGLIATA?",
+        "options": [
+            "Un trattamento chemio-radioterapico adiuvante al momento è raccomandato nei pazienti sottoposti a resezione R1",
+            "Non vi è alcun trattamento adiuvante approvato in questa neoplasia",
+            "Lo 'standard of care' di prima linea è rappresentato dall'associazione Cisplatino + Gemcitabina (Schema ABC02)",
+            "Nei pazienti con CCA avanzato che non ricevono alcun tipo di trattamento (chirurgia, chemioterapia e/o radioterapia) la sopravvivenza mediana è circa 4 mesi"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Nella titolazione degli oppiacei il farmaco oppiaceo è:",
+        "options": [
+            "L'indicatore",
+            "L'intervallo",
+            "Il titolando",
+            "Il titolante"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Quale dei seguenti è il regime chemioterapico più usato per il trattamento del carcinoma ovarico?",
+        "options": [
+            "Carboplatino e Taxolo",
+            "Vinorelbina",
+            "5-fluoro-uracile",
+            "5-fluoro-uracile e Oxaliplatino"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Secondo le ultime linee guida nazionali (AIOM 2019), quale strategia terapeutica nel setting adiuvante è percorribile nei pazienti con melanoma operato?",
+        "options": [
+            "INF-alfa",
+            "Dabrafenib-Trametinib (se BRAF mut)",
+            "Trial clinico",
+            "Tutte le precedenti"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Il 'Melanoma nodulare' (indicare la risposta SBAGLIATA):",
+        "options": [
+            "Esiste una variante amelanotica",
+            "Rappresenta circa il 40% di tutti i melanomi cutanei",
+            "Può essere ulcerato o crostoso",
+            "È il secondo tipo più comune di melanoma"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "La radioterapia intraoperatoria:",
+        "options": [
+            "Permette la diretta esposizione e individuazione del bersaglio radioterapico",
+            "Permette di evitare l'irradiazione degli organi sani grazie al loro diretto allontanamento dalla proiezione del fascio di radiazioni",
+            "È in genere somministrata con fasci di elettroni per ridurre l'irradiazione di organi 'a valle' del bersaglio",
+            "Tutte le risposte sono corrette"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Nei pazienti con tumore del pancreas radicalmente operato, il trattamento chemioterapico adiuvante (indicare la risposta SBAGLIATA):",
+        "options": [
+            "Prevede l'impiego di immunoterapia",
+            "La scelta dello schema terapeutico deve considerare le condizioni cliniche generali del paziente",
+            "Si può valutare anche un trattamento radioterapico in casi selezionati (resezione R1)",
+            "Può prevedere schemi di monochemioterapia o di combinazione"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Quali sono i principali fattori di rischio per lo sviluppo del colangiocarcinoma intraepatico (iCCA)?",
+        "options": [
+            "Malattia di Caroli",
+            "NAFLD/NASH",
+            "HBV - HCV",
+            "Tutti i precedenti"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Un adeguato frazionamento della dose (almeno 3-4 settimane di trattamento) è utile in caso di:",
+        "options": [
+            "Radioterapia curativa",
+            "Radioterapia palliativa",
+            "Brachiterapia con Californio 252",
+            "Ipertermia"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Quale tra i seguenti fattori di rischio può influenzare la prognosi di un paziente neoplastico?",
+        "options": [
+            "Stadio di malattia",
+            "Istotipo",
+            "Performance status",
+            "Tutti i precedenti"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "È corretto dire che la chirurgia per il tumore del polmone non a piccole cellule (NSCLC):",
+        "options": [
+            "È di elezione anche nei pazienti con interessamento linfonodale extraregionale (N3)",
+            "Con l'avvento dell'immunoterapia non è più una terapia di riferimento",
+            "È parte dell'approccio multidisciplinare anche nei pazienti in stadio IV",
+            "È di elezione per gli stadi I, IIa, IIb, IIIa"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Nelle pazienti con tumore della mammella triple-negative radicalmente operate quale delle seguenti affermazioni è CORRETTA?",
+        "options": [
+            "Non è mai indicato alcun trattamento ad intento adiuvante",
+            "Per gli stadi II e III considerare chemioterapia adiuvante",
+            "È sempre indicata una terapia ormonale post-chirurgia",
+            "È indicata solo RT post-chirurgica quando l'intervento non è radicale"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Secondo la Classificazione di Bismuth-Corlette, il colangiocarcinoma perilare (o Tumore di Klatskin) di tipo II è (indicare la definizione CORRETTA):",
+        "options": [
+            "Un tumore multifocale o che interessa la confluenza ed i dotti biliari di II ordine bilateralmente",
+            "Un tumore che interessa il dotto epatico comune ed il dotto epatico di sinistra",
+            "Un tumore del dotto epatico comune che raggiunge la confluenza dei dotti epatici destro e sinistro",
+            "Un tumore che interessa il dotto epatico comune ed il dotto epatico di destra"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Per la valutazione del parametro N nella stadiazione del tumore del polmone non è di comune impiego?",
+        "options": [
+            "La mediastinoscopia",
+            "La videotoracoscopia",
+            "La PET FDG",
+            "La toracotomia esplorativa"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Quale tra le seguenti NON è considerata dalle linee guida una possibile opzione di trattamento per i pazienti con colangiocarcinoma intraepatico metastatico?",
+        "options": [
+            "Prima linea con l’associazione Carboplatino + Vinorelbina",
+            "Seconda linea con Ivosidenib se IDH1-mutati",
+            "Seconda linea con Pemigatinib con fusioni/riarrangiamenti di FGFR2",
+            "Prima linea con l’associazione Cisplatino + Gemcitabina (ABC02)"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Nei pazienti naive agli oppiacei, il protocollo CoDem prevede la somministrazione di:",
+        "options": [
+            "Ossicodone 10 mg due volte die e 5 mg di morfina solfato a rilascio immediato come ‘rescue dose’, massimo 4 volte die",
+            "Ossicodone 5 mg due volte die e 5 mg di morfina solfato a rilascio immediato come ‘rescue dose’ massimo 6 volte die",
+            "Ossicodone 20 mg due volte die e 5 mg di morfina solfato a rilascio immediato come ‘rescue dose’ massimo 4 volte die",
+            "Ossicodone 5 mg due volte die e 5 mg di morfina solfato a rilascio immediato come ‘rescue dose’ massimo 4 volte die"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "La resilienza:",
+        "options": [
+            "Porta a rifiutare il cambiamento",
+            "Porta a essere disposti a cambiare",
+            "Porta a rispondere con strategie passive alle difficoltà",
+            "Porta a confermare i precedenti significati degli eventi"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Quale è il ruolo del Sorafenib nel trattamento del carcinoma epatocellulare?",
+        "options": [
+            "È indicato in prima linea nel trattamento dell’HCC avanzato",
+            "Non è un farmaco utilizzabile nel trattamento dell’HCC per la sua tossicità",
+            "È indicato solo in terza linea nel trattamento dell’HCC avanzato",
+            "Il farmaco è tuttora in sperimentazione"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "In un paziente con metastasi epatiche da CRC, la metastasectomia può essere indicata se:",
+        "options": [
+            "L’intervento chirurgico è potenzialmente radicale",
+            "Anche se l’intervento chirurgico non è previsto essere radicale",
+            "Anche se l’intervento comporta una funzionalità epatica residua non adeguata",
+            "Sono presenti multiple metastasi extra-epatiche"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Tra i vari sottotipi di melanoma, tutte le seguenti affermazioni sulle caratteristiche tipiche del 'Lentigo Maligna Melanoma' sono vere, TRANNE (INDICARE L’UNICA RISPOSTA ERRATA):",
+        "options": [
+            "È limitata alle sedi fotoesposte",
+            "Rappresenta il 5-10 % dei casi di melanoma cutaneo",
+            "Si presenta come chiazza asimmetrica variamente pigmentata",
+            "Presenta rapida evoluzione (in pochi mesi)"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "A partire dal XIX secolo:",
+        "options": [
+            "Malattia e morte accentuano il loro carattere comunitario e diventano sempre più un 'affare' privato, non gestito da specialisti",
+            "Malattia e morte perdono il loro carattere comunitario e diventano sempre più un 'affare' privato e gestito da specialisti",
+            "Malattia e morte accentuano il loro carattere comunitario e diventano sempre più un 'affare' privato e gestito da specialisti",
+            "Malattia e morte accentuano il loro carattere comunitario e diventano sempre meno un 'affare' privato e gestito da specialisti"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "In radioterapia, sono alla base della necessità di frazionare la dose radioterapica in numerose sedute i seguenti fenomeni radiobiologici:",
+        "options": [
+            "Riossigenazione",
+            "Redistribuzione nelle diverse fasi del ciclo cellulare",
+            "Riparazione del danno al DNA",
+            "Tutte le risposte sono corrette"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Da un punto di vista epidemiologico, il CRC … indicare l’affermazione CORRETTA:",
+        "options": [
+            "È la prima neoplasia per frequenza in entrambi i sessi",
+            "L’incidenza è attualmente in calo grazie ai programmi di screening in entrambi i sessi",
+            "L’incidenza è in graduale aumento",
+            "È la quinta causa di morte per neoplasia nel sesso femminile"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Convenzionalmente, il retto è esteso:",
+        "options": [
+            "Fino a 20 cm dal margine anale",
+            "Fino a 5 cm dal margine anale",
+            "Fino a 12 cm dal margine anale",
+            "Fino a 8 cm dal margine anale"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Quale di questi non è un fattore prognostico per il tumore della mammella?",
+        "options": [
+            "Grado istologico",
+            "EGFR",
+            "HER2",
+            "Età della paziente"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "La somministrazione transdermica di oppiacei:",
+        "options": [
+            "Prevede la formazione di un accumulo transitorio dell’oppiaceo nella cute",
+            "Prevede la formazione di un accumulo dinamico dell’oppiaceo nella cute",
+            "Prevede la formazione di un accumulo intermittente dell’oppiaceo nella cute",
+            "Non prevede la formazione di un accumulo transitorio dell’oppiaceo nella cute"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Il principale vantaggio della brachiterapia è rappresentato da:",
+        "options": [
+            "La possibilità di somministrare una dose di radiazioni elevata al tumore e molto ridotta agli organi circostanti",
+            "La possibilità di visualizzare il tumore durante l’irradiazione",
+            "La possibilità di associare farmaci targeted prima e dopo l’irradiazione",
+            "Tutte le risposte sono corrette"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "L’impiego di immunoterapia con farmaci anti PD-1 (Pembrolizumab) in prima linea in pazienti affetti da NSCLC ed espressione del PD-1>50% (indicare l’unica affermazione CORRETTA):",
+        "options": [
+            "Ha mostrato risultati detrimentali rispetto alla chemioterapia",
+            "Si associa ad un aumento della OS",
+            "Può essere utilizzato solo in pazienti unfit per chemioterapia",
+            "Non ha mostrato alcuna efficacia rispetto alla chemioterapia"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Il trattamento medico dei pazienti con tumore del polmone non a piccole cellule in stadio IV:",
+        "options": [
+            "Può prevedere diverse opzioni terapeutiche tra le quali: immunoterapia, farmaci target e chemioterapia",
+            "Non prevede la valutazione preventiva dell’“oncogene-addicted”",
+            "Prevede unicamente l’impiego di chemioterapici",
+            "Prevede sempre l’impiego d’immunoterapia"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Quale fra i seguenti affermazioni sul tumore del rene è CORRETTA?",
+        "options": [
+            "Solo il 10% dei pazienti che esordiscono con malattia localizzata svilupperà in seguito una malattia avanzata",
+            "Il 50% esordisce con una malattia metastatica",
+            "La sopravvivenza a 5 anni è strettamente correlata allo stadio di malattia",
+            "È nettamente più frequente nelle donne"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Un carcinoma ovarico con versamento pleurico (citologia positiva) rappresenta uno stadio FIGO:",
+        "options": [
+            "Stadio IV",
+            "Stadio I",
+            "Stadio II",
+            "Stadio III"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Si intende per brachiterapia un trattamento radioterapico:",
+        "options": [
+            "Somministrato lentamente",
+            "Dedicato a pazienti di bassa statura",
+            "Usato solo nei tumori uterini",
+            "Basato sull’uso di sorgenti radioattive"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "La radiosensibilità dei tumori è:",
+        "options": [
+            "Scarsissima per tutte le neoplasie",
+            "Elevatissima per tutte le neoplasie",
+            "Molto diversa tra le diverse neoplasie",
+            "La stessa per tutte le neoplasie"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "L’adroterapia, o radioterapia basata sull’uso di particelle pesanti, può essere particolarmente utile in caso di tumori:",
+        "options": [
+            "Molto radio resistenti",
+            "Molto sintomatici",
+            "Molto indifferenziati",
+            "Molto mobili"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Il Dabrafenib (indicare l’unica risposta corretta):",
+        "options": [
+            "E’ indicato nel trattamento del melanoma avanzato con mutazione BRAF V600E",
+            "E’ un anticorpo monoclonale anti-PD-1",
+            "E’ un anticorpo monoclonale anti-PD-L1",
+            "E’ indicato nel trattamento del melanoma avanzato senza mutazione BRAF V600E"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Nella valutazione del dolore, la Scala Analogica Visiva (VAS):",
+        "options": [
+            "Richiede coordinazione visivo-motoria da parte del paziente",
+            "Non richiede alcuna capacità di astrazione",
+            "È un metodo multidimensionale di valutazione del dolore",
+            "È di solito composta da una retta di 15 cm"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Quale dei seguenti NON è un’opzione terapeutica per il trattamento dei pazienti con HCC avanzato?",
+        "options": [
+            "Lenvatinib",
+            "Atezolizumab + Bevacizumab",
+            "Pazopanib",
+            "Cabozantinib"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Nei pazienti con colangiocarcinoma operato, quale delle seguenti affermazioni sulla terapia adiuvante è CORRETTA?",
+        "options": [
+            "Prevede esclusivamente la radioterapia",
+            "È indicata solo nei pazienti con resezione R2",
+            "Non è mai indicata",
+            "È raccomandata nei pazienti sottoposti a resezione R0-R1"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Quale tra le seguenti NON è considerata un’indagine di secondo livello per la diagnosi di carcinoma pancreatico?",
+        "options": [
+            "RM addome + Colangio-Wirsung RMN",
+            "ERCP",
+            "Ecoendoscopia",
+            "Scintigrafia ossea"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Riguardo la terapia adiuvante indicata nei pazienti con carcinoma pancreatico operati radicalmente, tutte le seguenti affermazioni sono corrette TRANNE una (indicare l’unica SBAGLIATA):",
+        "options": [
+            "Può prevedere l’utilizzo di regimi di a 1, 2 o 3 farmaci (in base alle condizioni cliniche del paziente)",
+            "È raccomandata solo nello Stadio I",
+            "Tra i regimi di chemioterapia più studiati in questo setting vi sono quelli a base di 5-FU e Gemcitabina",
+            "Un recente studio di fase III ha valutato l’efficacia dello schema FOLFIRINOX anche nel setting adiuvante"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Il programma di screening per le donne dai 45 ai 49 anni prevede:",
+        "options": [
+            "Mammografia ogni 2 anni",
+            "Mammografia ogni anno",
+            "Mammografia ogni 5 anni",
+            "Mammografia e RMN mammaria ogni anno"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Secondo Aries (1975), la morte e il morire:",
+        "options": [
+            "Affiancano la superstizione come tabù della nostra epoca",
+            "Hanno preso il posto del sesso come nuovo tabù della nostra epoca",
+            "Affiancano il sesso come tabù della nostra epoca",
+            "Hanno preso il posto della superstizione come nuovo tabù della nostra epoca"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Nei tumori del retto sottoposti a terapia neo-adiuvante e successiva chirurgia radicale, tutte le seguenti affermazioni su un eventuale terapia adiuvante sono corrette tranne UNA (indicare l’unica affermazione SBAGLIATA):",
+        "options": [
+            "In caso di scarsa risposta (yp T3-4 e/o ypN+), è indicato considerare chemioterapia a base oxaliplatino + fluoro pirimidine",
+            "In caso di residuo minimo di malattia (ypT1-2 N0), è indicato considerare una monochemioterapia con fluoropirimidine",
+            "In caso di risposta completa al trattamento neo-adiuvante, si può considerare una monochemioterapia con fluoro pirimidine",
+            "È sempre indicata una chemioterapia a base di platino + fluoro pirimidine associato ad un farmaco biologico (a seconda dell’analisi molecolare sul pezzo operatorio)"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Nei pazienti con carcinoma pancreatico operati radicalmente, quali delle seguenti affermazioni riguardanti la terapia adiuvante è sbagliata?",
+        "options": [
+            "Un recente studio di fase III ha valutato l'efficacia dello schema FOLFIRINOX anche nel setting adiuvante",
+            "È raccomandata solo in un piccolo sottogruppo di pazienti",
+            "Tra i regimi di chemioterapia più studiati in questo setting vi sono quelli a base di 5-FU e Gemcitabina",
+            "Può prevedere l'utilizzo di regimi a 1, 2 o 3 farmaci (in base alle condizioni cliniche del paziente)"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Nel colloquio col paziente, l'uso delle reflection skills serve:",
+        "options": [
+            "Per riflettere la comprensione del vissuto emotivo del paziente",
+            "Per riassumere quanto ha detto il medico",
+            "Per riflettere la comprensione della malattia del paziente",
+            "Per riassumere quanto ha detto il paziente"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "L'effetto della radioterapia è limitato dall'ipossia tumorale; questa può essere:",
+        "options": [
+            "Acuta o cronica",
+            "Sempre temporanea",
+            "Sempre persistente",
+            "Presente soprattutto alla fine del trattamento"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Nella stadiazione del tumore alla mammella, T1c significa che il tumore primitivo è?",
+        "options": [
+            "> di 1 cm ma < di 2 cm",
+            "Uguale a 2 cm",
+            "> di 2 cm ma < di 5 cm",
+            "> di 2 cm ma < di 10 cm"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Si intende per effetto ossigeno:",
+        "options": [
+            "La minore sensibilità alle radiazioni delle cellule ossigenate",
+            "La maggiore sensibilità alle radiazioni delle cellule non ossigenate",
+            "La minor tossicità nei tessuti ipossici ipo-ossigenati",
+            "Nessuna risposta è corretta"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Quale fra queste non è una terapia anti-HER2?",
+        "options": [
+            "Trastuzumab",
+            "Pertuzumab",
+            "Lapatinib",
+            "Atezolizumab"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Qual è la sopravvivenza a 5 anni per le pazienti con tumore alla mammella localizzato?",
+        "options": [
+            "60%",
+            "80%",
+            "95%",
+            "100%"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "La chirurgia per il NSCLC:",
+        "options": [
+            "È di elezione per gli stadi I, IIa, IIb, IIIa",
+            "È di elezione anche nei pazienti con interessamento linfonodale extraregionale",
+            "È parte dell'approccio multidisciplinare anche nei pazienti in stadio IV",
+            "Con l'avvento dell'immunoterapia non è più una terapia di riferimento"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Quale delle seguenti affermazioni sull'inquadramento diagnostico-terapeutico del tumore del testicolo è sbagliata?",
+        "options": [
+            "Nell'ambito del work-up diagnostico, è importante valutare il dosaggio dei marcatori tumorali (AFP, LDH, beta-HCG)",
+            "La biopsia testicolare viene sempre eseguita al momento della diagnosi, prima di pianificare qualunque futuro iter terapeutico (chirurgico o non chirurgico)",
+            "L'intervento chirurgico (orchiectomia) rappresenta il primo atto diagnostico-terapeutico",
+            "La presentazione più comune è rappresentata dalla presenza di una tumefazione testicolare"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Quale delle seguenti affermazioni è sbagliata?",
+        "options": [
+            "L'esplorazione rettale costituisce generalmente il primo approccio diagnostico nei pazienti con tumore prostatico",
+            "L'ecografia trans-rettale e la RMN con bobina endorettale permettono di valutare l'estensione del tumore a livello locale (T)",
+            "La PET-colina è fondamentale per la valutazione pre-operatoria dei parametri N e M",
+            "La TC permette di valutare l'eventuale interessamento dei linfonodi pelvici (N)"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Il trattamento medico dei pazienti con NSCLC in stadio IV e presenza di riarrangiamento di ALK:",
+        "options": [
+            "Prevede l'impiego di farmaci inibitori di ALK (es. alectinib, ceritinib o crizotinib) in prima linea",
+            "Prevede unicamente l'impiego di chemioterapici",
+            "Prevede sempre l'impiego di immunoterapia di prima linea",
+            "Prevede l'impiego di farmaci quali erlotinib, gefitinib, afatinib, osimertinib"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Il vemurafenib è:",
+        "options": [
+            "Un anti-PD-1",
+            "Un anti-CTLA4",
+            "Un inibitore di BRAF",
+            "Un inibitore di NRAS"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Nei pazienti con NSCLC in stadio avanzato, 'oncogene-addicted' con EGFR+ (indicare l'affermazione corretta):",
+        "options": [
+            "In presenza di mutazione di EGFR, i pazienti possono essere trattati in prima linea con un EGFR-inibitore",
+            "Dai risultati di recenti studi, in prima linea dovrebbe essere preso in considerazione un EGFR-inibitore di III generazione (Osimertinib)",
+            "In caso di progressione ad una prima linea con EGFR-inibitore, deve essere valutata la presenza dell'eventuale mutazione T790M",
+            "Tutte le precedenti"
+        ],
+        "correct": 3
+    },
+     {
+        "question": "Quale delle seguenti affermazioni riguardo il trattamento chirurgico del carcinoma gastrico è corretta:",
+        "options": [
+            "La resezione endoscopica è comunemente utilizzata in tutti i pazienti in stadio I-II",
+            "La linfoadenectomia D2 prevede l'asportazione di massimo 10 linfonodi",
+            "Il tipo di intervento chirurgico dipende dalla sede e dallo stadio di malattia",
+            "La linfoadenectomia è effettuata solo in casi altamente selezionati"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Nell'ambito della biologia molecolare del carcinoma pancreatico, quali dei seguenti geni sono frequentemente mutati in questa patologia?",
+        "options": [
+            "KRAS",
+            "p16",
+            "SMAD4",
+            "Tutte le precedenti"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Tra i segnali per cogliere l'agenda del paziente rientrano:",
+        "options": [
+            "Temi reiterati dal paziente",
+            "Argomenti che riguardano la malattia",
+            "Esame obiettivo",
+            "Le reazioni dei familiari"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "La radioterapia può avere finalità:",
+        "options": [
+            "Curativa",
+            "Adiuvante",
+            "Palliativa",
+            "Tutte le risposte sono corrette"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Quale tra i seguenti farmaci rientra tra le possibili alternative nel trattamento sistemico del tumore del rene in stadio avanzato 'intermediate/poor-prognosis'?",
+        "options": [
+            "Cabozantinib",
+            "Pazopanib",
+            "Tivozanib",
+            "Tutti i precedenti"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Nella valutazione clinica di un paziente affetto da HCC, quale tra i seguenti NON è un parametro necessario per il calcolo del 'Child-Pugh Score'?",
+        "options": [
+            "Presenza/assenza di ascite",
+            "Valori di albuminemia",
+            "Valori del tempo di protrombina (PT)",
+            "Valori del tempo di tromboplastina (aPTT)"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Qual è la risposta corretta riguardo l'utilizzo della chemioterapia nel caso dell'HCC?",
+        "options": [
+            "È risultata nel complesso scarsamente efficace nel trattamento dell'HCC",
+            "Il Cisplatino è uno dei chemioterapici più utilizzati in questa neoplasia",
+            "È efficace e impiegata di routine in prima linea",
+            "La Doxorubicina è uno dei chemioterapici più utilizzati in questa neoplasia"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Il più temuto effetto collaterale dei FANS è:",
+        "options": [
+            "La nausea",
+            "Il prurito",
+            "La costipazione",
+            "La gastrolesività"
+        ],
+        "correct": 3
+    },
+     {
+        "question": "La radioterapia palliativa richiede tempi, rispetto alla radioterapia curativa:",
+        "options": [
+            "Più brevi",
+            "Più lunghi",
+            "Uguali",
+            "Variabili in base all'uso di immunoterapia concomitante"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Quando è indicato l'uso del Palbociclib (secondo le attuali linee guida)?",
+        "options": [
+            "Tumore della mammella metastatico con recettori ormonali positivi",
+            "Tumore della mammella metastatico con HER2 positivo",
+            "Tumore della mammella localizzato con recettori ormonali positivi",
+            "Tumore della mammella localizzato con HER2 positivo"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Il melanoma nodulare (indicare la risposta SBAGLIATA):",
+        "options": [
+            "È il secondo tipo più comune di melanoma",
+            "Rappresenta circa il 30% di tutti i melanomi cutanei",
+            "Può essere ulcerato o crostoso",
+            "Esiste una variante amelanotica"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "In pz con carcinoma pancreatico avanzato, la scelta del trattamento chemioterapico dipende da diversi fattori, quali?",
+        "options": [
+            "Performance status del paziente",
+            "Tossicità dello schema proposto",
+            "Sintomatologia riferita dal paziente",
+            "Tutte le precedenti"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Tra gli agenti chemioterapici utilizzati nel trattamento del melanoma in stadio avanzato vi sono:",
+        "options": [
+            "Temozolomide",
+            "Dacarbazina",
+            "Fotoemustina",
+            "Tutte le precedenti"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Il Fentanile è un analgesico che può essere somministrato per via:",
+        "options": [
+            "Sistemica",
+            "Transdermica",
+            "Transmucosale",
+            "Tutte le precedenti"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Il dolore nocicettivo si genera per:",
+        "options": [
+            "Blocco dei nocicettori in periferia",
+            "Attivazione dei nocicettori in periferia",
+            "Blocco dei nocicettori nel sistema nervoso centrale",
+            "Nessuno dei precedenti"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Quale delle seguenti affermazioni sul tumore del rene è sbagliata?",
+        "options": [
+            "La sopravvivenza a 5 anni è strettamente legata allo stadio alla diagnosi",
+            "Il 25-30% dei casi esordisce con malattia metastatica",
+            "Meno del 20% dei pazienti che esordiscono con malattia localizzata svilupperà una malattia sistemica in seguito",
+            "In Europa rappresenta il 3-4% di tutte le neoplasie dell'adulto"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Il sistema stadiativo comunemente impiegato nei Paesi occidentali per valutare i pazienti affetti da HCC su fegato cirrotico e per guidare la scelta terapeutica è:",
+        "options": [
+            "Il sistema di stadiazione TNM",
+            "La 'Barcellona Clinic Liver Cancer (BCLC) classification'",
+            "Il sistema di valutazione della funzionalità epatica (o classificazione di Child-Pugh)",
+            "Il sistema di stadiazione FIGO"
+        ],
+        "correct": 1
+    },
+    {
     "question": "Qual è la percentuale di mutazioni BRCA1 e BRCA2 associate al carcinoma della mammella e dell'ovaio?",
     "options": [
         "BRCA1: mammella 70%, ovaio 40%; BRCA2: mammella 40%, ovaio 15%",
